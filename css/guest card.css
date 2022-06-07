@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+section {
+  /* overflow-x: hidden; */
+}
+
+:root {
+  
+  --Rubik: "Rubik", cursive;
+}
+
+
+.section-g {
+  padding-bottom: 20vmin;
+  background-color: #800;
+  margin-top: 3rem;
+  padding-top: 10vmin;
+  margin-bottom: 10rem;
+}
+
+.section-g .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-g .row-g .col-md-6:last-child {
+  position: relative;
+}
+
+.section-g .row-g .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: #fff;
+  color: #800;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+  margin-right: 0.5rem;
+}
+
+.section-g .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-g .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: #800;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-g .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .col-md-6 {
+    text-align: center !important;
+  }
+ 
+  .row {
+    margin-top: 8vmin;
+  }
+}
+
+.block-g time {
+  display: block;
+  /* width: 100%; */
+  display: inline-block;
+  position: relative;
+  /* display: inline-block; */
+    overflow: hidden;
+}
+.block-g .day-number {
+  font-family: conduititcpro-regular, sans-serif;
+  font-weight: normal;
+  font-size: 3.4375rem;
+  color: #800;
+  line-height: .9;
+  margin-bottom: -8px;
+
+}
+.card-ev{
+  display: flex;
+}
+.block-g {
+  /* display: inline-block; */
+  /* width: 100px;   */
+       height: 100px;  
+       /* border: solid 1px #ccc;  */
+       float: left;  
+       padding-right: 30px;
+}
+.block-f {
+  /* display: inline-block; */
+
+  /* width: 100px;   */
+       height: 100px;  
+       border-left: solid 2px #800; 
+       float: left; 
+       padding-top: 25px;
+    padding-left: 30px;
+}
+.panel-g{
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .card__media-g{
+  overflow: auto; 
+    width: 100%;
+} */

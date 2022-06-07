@@ -1,0 +1,641 @@
+@font-face {
+    font-family: 'MrsEavesXLSerifOT';
+    font-weight: bold;
+    font-style: normal;
+    src: url("../webfonts/MrsEavesXLSerifOT-Bold/font.woff2") format("woff2"), url("../webfonts/MrsEavesXLSerifOT-Bold/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'MrsEavesXLSerifOT';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../webfonts/MrsEavesXLSerifOT-Reg/font.woff2") format("woff2"), url("../webfonts/MrsEavesXLSerifOT-Reg/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'MrsEavesXLSerifOT';
+    font-weight: regular;
+    font-style: italic;
+    src: url("../webfonts/MrsEavesXLSerifOT-RegItalic/font.woff2") format("woff2"), url("../webfonts/MrsEavesXLSerifOT-RegItalic/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'MrsEavesXLSerifOT';
+    src: url("../webfonts/MrsEavesXLSerifOT-BoldItalic/font.woff2") format("woff2"), url("../webfonts/MrsEavesXLSerifOT-BoldItalic/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../webfonts/ProximaNova-Regular/font.woff2") format("woff2"), url("../webfonts/ProximaNova-Regular/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../webfonts/ProximaNova-RegularIt/font.woff2") format("woff2"), url("../webfonts/ProximaNova-RegularIt/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-style: normal;
+    src: url("../webfonts/ProximaNova-Semibold/font.woff2") format("woff2"), url("../webfonts/ProximaNova-Semibold/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-style: italic;
+    src: url("../webfonts/ProximaNova-SemiboldIt/font.woff2") format("woff2"), url("../webfonts/ProximaNova-SemiboldIt/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../webfonts/ProximaNova-Bold/font.woff2") format("woff2"), url("../webfonts/ProximaNova-Bold/font.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'ProximaNova';
+    font-weight: 700;
+    font-style: italic;
+    src: url("../webfonts/ProximaNova-BoldIt/font.woff2") format("woff2"), url("../webfonts/ProximaNova-BoldIt/font.woff") format("woff");
+  }
+  
+/* @media print, screen and (min-width: 48.0625em){
+    .card--event--listing .card--event__inner__left {
+      padding-right: 2.5rem;
+      -webkit-box-flex: 1;
+          -ms-flex: auto;
+              flex: auto;
+    }
+  } */
+@media print, screen and (min-width: 48.0625em){
+.grid-container {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}}
+.grid-container {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    max-width: 72.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+/* * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-family: ProximaNova, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.875;
+}
+body {
+    margin: 0;
+    color: #303030;
+    font-family: MrsEavesXLSerifOT, serif;
+    font-size: 16px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+@media print, screen and (min-width: 64.0625em){
+.card--listing:first-child {
+    margin-top: 3.75rem;
+}}
+
+@media print, screen and (min-width: 48.0625em){
+.card--listing:first-child {
+    margin-top: 2.5rem;
+}}
+.card--listing:first-child {
+    padding-top: 0;
+    margin-top: 1.875rem;
+}
+@media print, screen and (min-width: 64.0625em){
+.card--listing {
+    padding-top: 2.5rem;
+}}
+
+@media print, screen and (min-width: 64.0625em){
+.card--listing {
+    margin-top: 2.5rem;
+}}
+.card--listing {
+    width: 100%;
+    margin-top: 2rem;
+    margin-top: 1.875rem;
+    padding-top: 1.875rem;
+}
+.card--event {
+    position: relative;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    
+}
+.grid-x {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+@media screen and (max-width: 48.06125em){
+.card--event--detail .card__media, .card--event--listing .card__media {
+    width: 100%;
+    padding: 0;
+}}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .card__media {
+    width: 6.875rem;
+}}
+@media print, screen and (min-width: 40.0625em){
+.card--event .card__media {
+    width: 5.625rem;
+}}
+.card--event .card__media {
+    width: 100%;
+    padding-right: 1.875rem;
+    position: relative;
+    width: 5.5rem;
+}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .date-block {
+    margin-top: -0.3125rem;
+}}
+.card--event .card__media {
+    margin-bottom: 0;
+    /* width: 10%; */
+}
+
+.card__media {
+    border-radius: 7px;
+    overflow: hidden;
+}
+.card--event--listing time {
+    margin-right: 1.25rem;
+}
+.card--event time {
+    margin-right: 0.9375rem;
+}
+.card--event time, .card--event address, .card--event .date {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    font-style: normal;
+}
+.date-block time {
+    display: block;
+    width: 100%;
+}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .date-block .month, .card--event--listing .date-block .day-name {
+    font-size: 1.875rem;
+}}
+.date-block .month, .date-block .day-name {
+    font-family: MrsEavesXLSerifOT, serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #800;
+    line-height: 1.3;
+}
+
+@media screen and (min-width: 28.1875rem){
+.date-block .month, .date-block .day-number, .date-block .day-name {
+    text-align: right;
+}}
+.date-block .month, .date-block .day-number, .date-block .day-name {
+    display: block;
+}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .date-block .day-number {
+    font-size: 5rem;
+}}
+.date-block .day-number {
+    font-family: conduititcpro-regular, sans-serif;
+    font-weight: normal;
+    font-size: 3.4375rem;
+    color: #800;
+    line-height: .9;
+    margin-bottom: -8px;
+}
+@media screen and (min-width: 48.0625em){
+.hero--home .card__content-outer {
+    text-align: center;
+}}
+.hero--home .card__content--top span {
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-style: italic;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+    -webkit-animation-name: transform;
+    animation-name: transform;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    font-style: 1.875rem;
+}
+@media print, screen and (min-width: 48.0625em){
+.hero--home .card__content--top span:before, .hero--home .card__content--top span:after {
+    content: '';
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 0.0625rem;
+    background-color: #95d2f3;
+    margin: 0 0.9375rem;
+    max-width: 0;
+    opacity: 0;
+    -webkit-animation-name: max-width-80;
+    animation-name: max-width-80;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}}
+
+@media print, screen and (min-width: 48.0625em){
+.hero--home h2 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    max-width: 69vw;
+    margin-left: auto;
+    margin-right: auto;
+}}
+@media print, screen and (min-width: 48.0625em){
+.hero--large__title {
+    font-size: 7vw;
+}}
+.hero--large__title {
+    color: white;
+    font-family: conduititcpro-bold, sans-serif;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-animation-name: transform;
+    animation-name: transform;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    animation-timing-function: cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    font-size: 14vw;
+}
+
+@media print, screen and (min-width: 64.0625em){
+.global-spacing--medium {
+    margin-top: 2.5rem;
+}}
+.global-spacing--medium {
+    margin-top: 1.875rem;
+}
+@media print, screen and (min-width: 64.0625em){
+h2, .h2 {
+    font-size: 3.75rem;
+}}
+@media print, screen and (min-width: 48.0625em){
+h2, .h2 {
+    letter-spacing: 0.03125rem;
+    font-size: 2.5rem;
+}}
+h2, .h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-family: conduititcpro-regular, sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.hero span {
+    display: block;
+}
+@keyframes transform{
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 100;
+    }
+}
+
+.card--event .card__content {
+    position: relative;
+}
+.card--event .card__content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.card--event .card__content:before {
+    content: '';
+    width: 0.25rem;
+    position: absolute;
+    top: 0;
+    /* left: -0.125rem; */
+    background: #800;
+    -webkit-transition: height 2s cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    transition: height 2s cubic-bezier(0.86, 0.25, 0.38, 0.94);
+    height: 5.625rem;
+    max-height: 7.8125rem;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+.img-gg{
+    position: inherit !important;
+}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .card__content__inner {
+    padding-left: 1.875rem;
+}}
+.card--event--listing .card__content__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.card--event .card__content__inner {
+    padding: 0 0 0 1.25rem;
+}
+@media print, screen and (min-width: 48.0625em){
+.card--event--listing .card--event__inner__left {
+    padding-right: 2.5rem;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+}}
+.card-for-event h3:first-child{
+    margin-top: 0;
+}
+@media print, screen and (min-width: 64.0625em){
+h3, .h3 {
+    font-size: 1.75rem;
+}}
+h3, .h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-family: MrsEavesXLSerifOT, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: #800;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+@media print, screen and (min-width: 48.0625em){
+h3, .h3 {
+    font-size: 1.625rem;
+}}
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.card--event--listing img {
+    border-radius: 0.4375rem;
+    overflow: hidden;
+}
+.card--event img {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* img[Attributes Style] {
+    width: 640px;
+    aspect-ratio: auto 640 / 460;
+    height: 460px;
+} */
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+}
+.card--event__info, .card--event p {
+    margin-top: 0.625rem;
+}
+.icon-meta address, .icon-meta time, .icon-meta .date, .icon-meta .icon-email, .icon-meta .icon-phone {
+    /* display: -webkit-inline-box;
+    display: -ms-inline-flexbox; */
+    display: inline-flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+.icon-meta time:before {
+    content: "";
+    display: inline-block;
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+.icon-meta address:before, .icon-meta time:before, .icon-meta .date:before, .icon-meta .icon-email:before, .icon-meta .icon-phone:before {
+    padding-right: 0.625rem;
+    color: #800;
+}
+address {
+    display: block;
+    font-style: italic;
+}
+.icon-meta address:before {
+    content: "";
+    display: inline-block;
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+.card--event--listing p {
+    max-width: 41.25rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+@media screen and (min-width: 40.0625em){
+.topics, .locations, .schools {
+    display: -webkit-inline-box;
+    /* display: -ms-inline-flexbox; */
+    display: inline-flex;
+}}
+/* .content {
+    display: flex;
+    height: 250px;
+    border: 1px solid black;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+  } */
+@media print, screen and (min-width: 64.0625em){
+  .card--listing:first-child {
+      margin-top: 3.75rem;
+  }}
+
+.topics, .locations, .schools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-flex;
+    list-style: none;
+    margin-top: 0.625rem;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.topics li, .locations li, .schools li {
+    margin-top: 0.3125rem;
+    margin-right: 1.25rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.topics a, .locations a, .schools a {
+    /* text-decoration: underline; */
+    font-weight: 600;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+/* @media screen and (min-width: 40.0625em){
+.topics + .topics:before, .locations + .topics:before, .schools + .topics:before, .topics + .locations:before, .locations + .locations:before, .schools + .locations:before, .topics + .schools:before, .locations + .schools:before, .schools + .schools:before {
+    content: "\2022";
+    color: #019cdb;
+    padding: 0 1.25rem 0 0;
+    font-weight: bold;
+}} */
+@media screen and (min-width: 40.0625em){
+.topics li:not(:first-child):before, .locations li:not(:first-child):before, .schools li:not(:first-child):before {
+    content: "/";
+    padding: 0 1.25rem 0 0;
+    color: rgba(48, 48, 48, 0.25);
+    font-weight: bold;
+}}
+.card--event--listing .card--event__inner__right {
+    width: 25%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+}
+.card--listing + .card--listing {
+    border-top: 0.125rem solid #800;
+}
